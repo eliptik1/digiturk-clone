@@ -48,3 +48,24 @@ body {
   @apply opacity-100 visible;
   transform: scale(1);
 }
+
+.menu-btn {
+  @apply relative inline-block capitalize text-center text-white font-bold leading-none rounded-full z-10 text-xs py-3.5 px-5 bg-[#dd1936] border border-white cursor-pointer;
+  font-family: var(--title-font);
+  transition: all 0.4s ease;
+}
+
+.menu-btn:hover {
+  @apply text-[#dd1936];
+}
+
+.menu-btn-bg {
+  @apply absolute inset-[3px] bg-white rounded-full z-0 opacity-0 invisible;
+  transform: scale(0.2);
+  transition: all 0.4s ease;
+}
+
+.menu-btn:hover .menu-btn-bg {
+  @apply opacity-100 visible;
+  transform: scale(1);
+}
