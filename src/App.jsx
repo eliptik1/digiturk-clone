@@ -14,10 +14,16 @@ function App() {
       <Banner />
       <Header />
 
-      <Hero />
-      <Carousel />
-      <Accordion />
-      <Contact />
+      <main className="flex w-full mx-auto max-w-[1320px]">
+        <div className="w-full max-w-[66%]  flex flex-col">
+          <Hero />
+          <Carousel />
+          <Accordion />
+        </div>
+        <div className="flex-auto bg-blue-200">
+          <Contact />
+        </div>
+      </main>
 
       <Footer />
     </>
