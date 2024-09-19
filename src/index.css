@@ -143,3 +143,47 @@ body {
     transform: translateX(-50%);
   }
 }
+
+.slick-track {
+  @apply flex items-center gap-16 p-[60px];
+}
+.slick-list {
+  background: url("/src/assets/slider-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.slick-arrow.slick-next {
+  right: 0px;
+}
+.slick-arrow.slick-prev {
+  left: 0px;
+}
+
+.slick-arrow.slick-next,
+.slick-arrow.slick-prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 60px;
+  width: 60px;
+  font-size: 50px;
+  z-index: 20;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.arrows {
+  /* height: 20px;
+  width: 20px; */
+  margin: 1px;
+}
+
+.accordion-trigger:hover .icon-trigger {
+  background-color: #00aaff; /* New background color on hover */
+}
