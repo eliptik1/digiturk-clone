@@ -6,7 +6,7 @@ import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 function Banner() {
   return (
     <section className="relative flex max-xl:flex-col justify-between items-center pt-[17px] max-md:pr-[11px] pr-[70px] p-[11px] w-full xl:h-[120px] bg-no-repeat bg-cover bg-[url('assets/banner.png')] ">
-      <div className="flex justify-center items-center text-white font-montserrat font-bold text-sm w-full">
+      <div className="flex flex-1 justify-center items-center text-white font-montserrat font-bold text-sm w-full">
         <div className="flex gap-2 justify-center items-center w-full max-w-[230px]">
           <img className="size-[50px]" src={fb} />
           <span className="max-md:hidden">Fenerbahçe</span>
@@ -17,15 +17,15 @@ function Banner() {
           <img className="size-[50px]" src={gs} />
         </div>
       </div>
-      <div className="">
+      <div className="flex-1 flex justify-center">
         <FlipClockCountdown
           className="flip-clock"
           labels={["Gün", "Saat", "Dakika", "Saniye"]}
           to={new Date().getTime() + 196850000}
         />
       </div>
-      <div className="flex gap-2 items-center text-white font-montserrat">
-        <div className="flex gap-2 flex-col">
+      <div className="flex flex-1 gap-2 md:gap-16 justify-center items-center text-white font-montserrat">
+        <div className="flex gap-2  flex-col">
           <span className="font-bold">Taraftar Paketi</span>
           <div className="h-[2px] w-full bg-[#dd1936]"></div>
           <div className="flex gap-[16px] items-center">
@@ -38,8 +38,8 @@ function Banner() {
           </div>
         </div>
         <div>
-          <button className="banner-btn group">
-            <span className="relative z-10">hemen başvur</span>
+          <button className="banner-btn group md:!p-[22px] md:!px-[44px] md:!text-[14px]">
+            <span className="relative z-10 text-nowrap">hemen başvur</span>
             <span className="banner-btn-bg"></span>
           </button>
         </div>
