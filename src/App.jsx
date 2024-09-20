@@ -20,7 +20,7 @@ function App() {
           <Carousel />
           <Accordion />
         </div>
-        <div className="flex-auto bg-blue-200">
+        <div className="flex-auto">
           <Contact />
         </div>
       </main>

@@ -154,6 +154,12 @@ body {
   border-radius: 10px;
 }
 
+.form-bg {
+  background: url("/src/assets/form.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .slick-arrow.slick-next {
   right: 0px;
 }
