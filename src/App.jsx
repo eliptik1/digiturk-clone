@@ -14,7 +14,7 @@ function App() {
       <Banner />
       <Header />
 
-      <main className="flex w-full mx-auto max-w-[1320px]">
+      <main className="flex w-full mx-auto max-w-[1320px] pb-[130px]">
         <div className="w-full max-w-[66%]  flex flex-col">
           <Hero />
           <Carousel />

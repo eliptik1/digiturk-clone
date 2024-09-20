@@ -8,7 +8,7 @@ import { IconContext } from "react-icons";
 
 function Hero() {
   return (
-    <section className="mt-[50px] mx-[20px] p-[10px] font-montserrat border border-[#D0D0D0] rounded-2xl">
+    <section className="mt-[50px] mx-[20px] p-[10px] font-montserrat border border-[#D0D0D0] rounded-2xl ">
       <div className="flex  mb-[40px]  relative  text-white">
         <img className=" rounded-2xl" src={hero} alt="" />
         <div className="absolute top-[20px] left-[15px] ">

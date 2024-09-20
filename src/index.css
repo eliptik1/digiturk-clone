@@ -154,12 +154,6 @@ body {
   border-radius: 10px;
 }
 
-.form-bg {
-  background: url("/src/assets/form.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .slick-arrow.slick-next {
   right: 0px;
 }
@@ -192,4 +186,23 @@ body {
 
 .accordion-trigger:hover .icon-trigger {
   background-color: #00aaff; /* New background color on hover */
+}
+
+.form-bg {
+  background: url("/src/assets/form.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-bg {
+  background: url("/src/assets/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-title {
+  @apply text-base font-bold mb-9 leading-[14px];
+}
+.footer-link {
+  @apply text-[14px] leading-[14px] mb-[26px] font-normal flex gap-2 hover:text-[#dd1936] transition-colors duration-500;
 }

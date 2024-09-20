@@ -7,7 +7,7 @@ import { IoChevronDown } from "react-icons/io5";
 
 function Header() {
   return (
-    <header className="flex justify-between items-center w-full h-full px-4 border-b border-[#d7d7d7] relative font-montserrat">
+    <header className="flex justify-between items-center w-full h-full px-4 border-b border-[#d7d7d7] relative font-montserrat sticky bg-white z-30 top-0">
       <img className="" src={logo} />
       <ul className="flex gap-[26px] items-center">
         <button className="transition-all duration-400  relative font-semibold text-lg text-white rounded-[20px] py-[15px] px-[15px] bg-[linear-gradient(to_left,_#000_-55%,_#FFBC00)] hover:opacity-90">

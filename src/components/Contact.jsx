@@ -2,7 +2,7 @@ import phone from "../assets/phone.svg";
 
 function Contact() {
   return (
-    <div className="form-bg text-white font-montserrat mx-[30px] mt-[50px] rounded-[14px]">
+    <div className="form-bg text-white font-montserrat mx-[30px] mt-[50px] rounded-[14px] sticky top-24">
       <div className="flex justify-start p-[30px] gap-4 border border-[rgba(255,255,255,0.2)]">
         <img
           className=" bg-[#D60A29] p-2 size-[39px] border-2 border-white rounded-full"
