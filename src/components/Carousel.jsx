@@ -79,7 +79,7 @@ function Carousel() {
         // }}
         {...settings}
       >
-        <div className="w-full !flex justify-center gap-10 items-center">
+        <div className="w-full !flex max-md:flex-col justify-center gap-10 items-center">
           <img className="w-[345px]" src={slide3} alt="" />
           <div>
             <h5 className="mb-4 text-[28px] font-semibold">Film ve Dizi</h5>
@@ -89,7 +89,7 @@ function Carousel() {
             </p>
           </div>
         </div>
-        <div className="w-full !flex justify-center  gap-10 items-center">
+        <div className="w-full !flex max-md:flex-col justify-center  gap-10 items-center">
           <img className="w-[345px]" src={slide1} alt="" />
           <div>
             <h5 className="mb-4 text-[28px] font-semibold">Müzik ve Yaşam</h5>
@@ -99,7 +99,7 @@ function Carousel() {
             </p>
           </div>
         </div>
-        <div className="w-full !flex justify-center gap-10 items-center">
+        <div className="w-full !flex max-md:flex-col justify-center gap-10 items-center">
           <img className="w-[345px]" src={slide2} alt="" />
           <div>
             <h5 className="mb-4 text-[28px] font-semibold">Spor</h5>
@@ -110,7 +110,7 @@ function Carousel() {
           </div>
         </div>
 
-        <div className="w-full !flex justify-center gap-10 items-center">
+        <div className="w-full !flex max-md:flex-col justify-center gap-10 items-center">
           <img className="w-[345px]" src={slide4} alt="" />
           <div>
             <h5 className="mb-4 text-[28px] font-semibold">Belgesel</h5>

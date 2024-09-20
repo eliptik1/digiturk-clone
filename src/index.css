@@ -26,6 +26,9 @@ body {
     bottom: unset;
     transform: translate(-50%, -150%);
   }
+  .fcc__digit_block {
+    @apply max-md:text-[30px] max-md:w-[20px];
+  }
 }
 
 .banner-btn {

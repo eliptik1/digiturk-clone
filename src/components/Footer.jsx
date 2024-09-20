@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <footer class="footer-bg text-white pt-8  font-montserrat flex justify-center flex-col items-center">
-      <div className="flex gap-24 items-center mb-[40px]">
+      <div className="flex gap-24 max-md:gap-6 items-center mb-[40px] max-md:flex-col">
         <div className="flex gap-6">
           <div className="relative">
             <div class="w-[90px] h-[90px] flex items-center justify-center bg-[#dd1936] text-[--white-color] text-[40px] rounded-[37%] rotate-45 mt-[-5px] "></div>
@@ -184,9 +184,10 @@ function Footer() {
         </div>
       </div>
 
-      <div className="w-full text-center bg-gradient-to-r from-[#10004b] via-[#20016f] to-[#420e73] text-[13px] p-[20px] px-[100px]">
+      <div className="w-full text-center bg-gradient-to-r from-[#10004b] via-[#20016f] to-[#420e73] text-[13px] p-[20px] px-[100px] max-md:px-[20px]">
         <p className="mb-2">
-          © 2022 Ikra Telekom | Bu sitenin tüm hakları saklıdır. |
+          © 2022 Ikra Telekom | Developed by Ali Yurdunol | Bu sitenin tüm
+          hakları saklıdır. |
         </p>
         <p className="mb-2 px-[15px]">
           Evde internet hizmetleri ve Digital yayın hizmeti Digitürk tarafından

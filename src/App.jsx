@@ -14,8 +14,8 @@ function App() {
       <Banner />
       <Header />
 
-      <main className="flex w-full mx-auto max-w-[1320px] pb-[130px]">
-        <div className="w-full max-w-[66%]  flex flex-col">
+      <main className="flex w-full mx-auto max-w-[1320px] pb-[130px] max-[900px]:flex-col max-[900px]:items-center">
+        <div className="w-full lg:max-w-[66%]  flex flex-col">
           <Hero />
           <Carousel />
           <Accordion />

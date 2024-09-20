@@ -9,10 +9,10 @@ import { IconContext } from "react-icons";
 function Hero() {
   return (
     <section className="mt-[50px] mx-[20px] p-[10px] font-montserrat border border-[#D0D0D0] rounded-2xl ">
-      <div className="flex  mb-[40px]  relative  text-white">
+      <div className="flex max-md:flex-col mb-[40px]  relative  md:text-white">
         <img className=" rounded-2xl" src={hero} alt="" />
-        <div className="absolute top-[20px] left-[15px] ">
-          <h1 className="text-[25px] font-bold w-[450px] leading-[1.4] mb-4">
+        <div className="md:absolute top-[20px] left-[15px] ">
+          <h1 className="text-[25px] font-bold max-w-[450px] leading-[1.4] mb-4">
             Digiturk Eğlencenin ve Avrupanın Yıldızı
           </h1>
           <div className="font-semibold">
@@ -23,7 +23,7 @@ function Hero() {
             &nbsp;
           </div>
         </div>
-        <div className="absolute bottom-[15px] left-[15px] flex flex-col">
+        <div className="md:absolute bottom-[15px] left-[15px] flex flex-col">
           <span>12 ay</span>
           <span className="text-5xl font-extrabold">
             ₺299 / <em className="text-xl">AY</em>
